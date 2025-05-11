@@ -10,3 +10,32 @@
   clip-path: inset(100%);
   margin: -1px;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+
+.main-btn {
+  display: block;
+  padding: 14px 42px;
+  min-width: 105px;
+  border-radius: 4px;
+
+  font-weight: 700;
+  color: #fff;
+  background-color: #02897a;
+
+  transition: background-color 200ms ease-in-out;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #006e61;
+}

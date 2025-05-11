@@ -1,0 +1,173 @@
+.page-footer {
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+.footer-container {
+  padding: 0 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo-footer {
+  margin-bottom: 25px;
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edfffc;
+  border-radius: 50%;
+}
+
+.footer-soc-icon {
+  fill: transparent;
+  stroke: #02897a;
+}
+
+.footer-nav {
+  display: flex;
+  width: 100%;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.footer-nav-link {
+  line-height: 2.19;
+}
+
+.footer-form-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 325px;
+  flex-grow: 1;
+}
+
+.footer-form {
+  width: 100%;
+}
+
+.footer-form-title {
+  margin-bottom: 34px;
+  max-width: 280px;
+}
+
+.footer-form-input {
+  padding: 0 42px;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  line-height: 1.75;
+  color: #000;
+}
+
+.footer-form-input::placeholder {
+  color: #02897a;
+}
+
+.footer-form-btn {
+  display: block;
+  padding: 8px 15px;
+  line-height: 1.5;
+}
+
+.footer-input-wrapper {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.footer-form-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  fill: #02897a;
+}
+
+.footer-copy {
+  text-align: center;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 1149px) {
+  .footer-logo-wrapper {
+    margin-bottom: 32px;
+  }
+
+  .footer-soc-list {
+    justify-content: center;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+
+  .footer-nav-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-form-title {
+    text-align: center;
+  }
+
+  .footer-form-wrapper {
+    align-items: center;
+    margin-bottom: 44px;
+  }
+
+  .footer-form-btn {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .page-footer {
+    padding-bottom: 40px;
+  }
+
+  .footer-container {
+    row-gap: 10px;
+  }
+
+  .footer-logo-wrapper {
+    margin-right: auto;
+  }
+
+  .logo-footer {
+    margin-bottom: 18px;
+  }
+
+  .footer-nav {
+    justify-content: space-between;
+    max-width: 378px;
+    margin-right: 83px;
+  }
+
+  .footer-form-title {
+    margin-bottom: 30px;
+  }
+}
