@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "blended-team-119-1",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/blended-team-119-1/",
     "preview": "vite preview"
   },
   "devDependencies": {
